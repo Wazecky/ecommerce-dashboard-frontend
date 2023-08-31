@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+.navbar_warapper a{
+  padding-left: 30px;
+}
+
+.navbar-user {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.navbar-user .nav-link {
+  color: white;
+}
+
+.delete{
+  background-color: #a90b0b !important;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update{
+  background-color: green !important;
+  color: #ffff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
